@@ -41,7 +41,7 @@ public class AdminContoller {
 			 String adminpassword,
 			 ModelAndView mv,
 			 HttpSession session){
-		// 根据登录名和密码查找用户，判断用户登录
+		// 根据登录名和密码查找用户，判断用户登录123
 		Admin admin = adminService.adminlogin(adminname, adminpassword);
 		 if(admin != null){
 			// 登录成功，将user对象设置到HttpSession作用范围域
